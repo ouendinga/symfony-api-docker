@@ -1,0 +1,28 @@
+# SF4
+Simple APIResfull in Symfony 4 with Dockers
+
+## Dockers
+- sf4_apache (run web server)
+- sf4_php (run php fpm)
+- sf4_phpmyadmin (run db administration)
+- sf4_mysql (run db server)
+
+## Installation
+```bash
+composer install
+```
+
+## Migration
+```bash
+php bin/console doctrine:migrations:migrate
+```
+
+## DB User
+User: sf4
+Password: sf4
+
+## API Docs
+{your_hosting}/api/doc
+
+## Postman Tests
+[https://www.getpostman.com/collections/7f3c71401275dc6c8896](https://www.getpostman.com/collections/7f3c71401275dc6c8896)
