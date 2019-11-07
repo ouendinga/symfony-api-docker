@@ -34,6 +34,8 @@ services:
           - maildev_host=sf4_maildev
         depends_on:
           - mysql
+        links:
+          - mysql
 
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
